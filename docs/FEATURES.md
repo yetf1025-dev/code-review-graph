@@ -1,6 +1,6 @@
 # Features
 
-## v1.6.1 (Current)
+## v1.6.2 (Current)
 - **24 audit fixes**: Critical bug fixes, performance improvements, parser enhancements, expanded test coverage
 - **Parser: C/C++ support**: Full node extraction for C and C++ (classes, functions, imports, calls, inheritance)
 - **Parser: name extraction**: Fixed for Kotlin, Swift (simple_identifier), Ruby (constant)

@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.6.1] - 2026-02-27
+## [1.6.2] - 2026-02-27
 
 ### Fixed
 - **Critical**: Incremental hash comparison bug — `file_hash` read from wrong field, causing every file to re-parse
