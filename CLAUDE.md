@@ -1,4 +1,4 @@
-# CLAUDE.md - Project Context for Claude Codet
+# CLAUDE.md - Project Context for Claude Code
 
 ## Project Overview
 
