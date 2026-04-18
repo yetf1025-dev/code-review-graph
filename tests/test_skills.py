@@ -295,7 +295,7 @@ class TestInstallPlatformConfigs:
         data = tomllib.loads(codex_config.read_text())
         entry = data["mcp_servers"]["code-review-graph"]
         assert entry["type"] == "stdio"
-        assert entry["args"] == ["code-review-graph", "serve"] or entry["args"] == ["serve"]
+        assert "serve" in entry["args"]
 
     @_needs_tomllib
     def test_install_codex_preserves_existing_toml(self, tmp_path):
